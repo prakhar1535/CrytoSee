@@ -2,6 +2,12 @@
 import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { Col, Row, Typography } from 'antd';
+import {  CategoryScale } from 'chart.js';
+import Chart from 'chart.js/auto';
+Chart.register(CategoryScale);
+
+
+
 
 const { Title } = Typography;
 
